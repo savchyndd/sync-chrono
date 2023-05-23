@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sync-chrono/static/css/main.d1f08b34.css",
-    "main.js": "/sync-chrono/static/js/main.302ffff2.js",
+    "main.js": "/sync-chrono/static/js/main.312864dc.js",
     "index.html": "/sync-chrono/index.html",
     "main.d1f08b34.css.map": "/sync-chrono/static/css/main.d1f08b34.css.map",
-    "main.302ffff2.js.map": "/sync-chrono/static/js/main.302ffff2.js.map"
+    "main.312864dc.js.map": "/sync-chrono/static/js/main.312864dc.js.map"
   },
   "entrypoints": [
     "static/css/main.d1f08b34.css",
-    "static/js/main.302ffff2.js"
+    "static/js/main.312864dc.js"
   ]
 }
