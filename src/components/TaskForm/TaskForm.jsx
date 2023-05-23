@@ -12,7 +12,7 @@ export const TaskForm = () => {
     event.preventDefault();
     const form = event.target;
 
-    if (!form.elements.text.value) return alert('Enter task text...');
+    if (!form.elements.text.value.trim()) return alert('Enter task text...');
 
     dispatch(addTask(form.elements.text.value));
 
