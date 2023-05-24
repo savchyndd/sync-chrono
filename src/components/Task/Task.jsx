@@ -12,12 +12,14 @@ export const Task = ({ task }) => {
 
   return (
     <div className={css.wrapper}>
-      <input
-        type="checkbox"
-        className={css.checkbox}
-        checked={task.completed}
-        onChange={handleToggle}
-      />
+      <label className="checkbox-label">
+        <input
+          type="checkbox"
+          className={css.checkbox}
+          checked={task.completed}
+          onChange={handleToggle}
+        />
+      </label>
       <p className={css.text}>{task.text}</p>
       <button className={css.btn} onClick={handleDelete}>
         Delete{/* <MdClose size={24} /> */}

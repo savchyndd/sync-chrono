@@ -33,10 +33,38 @@
 }
 
 .checkbox {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+
+  font: inherit;
+
+  margin: 0;
+  width: 1.125em;
+  height: 1.125em;
 
   border-radius: 50%;
   border: 2.5px solid #94adcf;
+}
+
+.checkbox:checked {
+  background-color: #94adcf;
+}
+
+.checkbox:focus,
+.checkbox:hover {
+  outline: max(1px, 0.15em) solid #94adcf;
+  outline-offset: max(1px, 0.15em);
+  background-color: #94adcf;
+}
+
+.checkbox:disabled {
+  --form-control-color: var(--form-control-disabled);
+
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}
+
+.form-control--disabled {
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
 }
